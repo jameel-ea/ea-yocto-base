@@ -13,7 +13,7 @@
   <remote fetch="git://git.openembedded.org"  name="python2"/>
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
 
-  <remote fetch="git://github.com/jameel-ea"  name="jameel-EA"/>
+  <remote fetch="git://github.com/jameel-ea"  name="EA"/>
   <remote fetch="git://github.com/jameel-ea"  name="jameel-Murata"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
@@ -38,10 +38,10 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="cba967414370e195d109353e51510bd829aa86c3"/>
 
-  <project remote="jameel-EA" name="meta-ea" path="sources/meta-ea" revision="0a01da8ca6302bca55ede6b2c779067bebd38f71" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="263b0f1ba711615a0b0fc391c553e90152ae4d7e" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="jameel-Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="1f103bc30ba2637ff3f78b8af6dd3ff76ada86f7" />
+  <project remote="jameel-Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="a0864d4faefaed14a03cdf318bd22b1206d396de" />
 
 </manifest>
