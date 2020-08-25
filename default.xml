@@ -14,7 +14,7 @@
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
 
   <remote fetch="git://github.com/embeddedartists"  name="EA"/>
-  <!--<remote fetch="git://github.com/murata-wireless"  name="Murata"/>-->
+  <remote fetch="git://github.com/jameel-ea"  name="Murata"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
     <linkfile dest="README" src="README"/>
@@ -42,6 +42,6 @@
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <!-- <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="e9c69a2d7aa29b08df2243250bc64bd552a71dfc" /> -->
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="1f103bc30ba2637ff3f78b8af6dd3ff76ada86f7" />
 
 </manifest>
