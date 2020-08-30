@@ -38,10 +38,10 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="cba967414370e195d109353e51510bd829aa86c3"/>
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="40b47e17978f54c106c344536fdf3ce93d182468" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="bbcbefba1738c8bb67065e3b990bf782ec21713e" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="jameel-Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="7c6fa5677bf3e8a69ebaf649f7c252521db28b92" />
+  <project remote="jameel-Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="8248f0e09efff3d9a82883eae7d778792bcd315b" />
 
 </manifest>
